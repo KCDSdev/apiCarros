@@ -12,4 +12,5 @@ server.use('/api',routes);
 
 server.listen(process.env.PORT,()=>{
     console.log(`Servidor rodando em: http://localhost: ${process.env.PORT}`); //INTERPOLAÇÃO
+    //console.log("Servidor rodando em http://localhost: " + process.env.PORT);//CONCATENAÇÃO
 })
